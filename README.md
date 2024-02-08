@@ -1,46 +1,25 @@
-# Data-Exploration
-This project targets to analyze COVID - 19 Datasets. Two kind of datasets has been used for the analysis purposes - COVID-19 Deaths(can be downloaded from [here](https://ourworldindata.org/covid-deaths)) and COVID-19 Vaccination(can be downloaded from [here](https://ourworldindata.org/covid-vaccinations)). The datasets include details on the number of COVID-19 cases, deaths, vaccination rates, demographic stats from various nations, etc.
+# Abstract
+This report delivers a detailed examination of Tesla, Inc. (TSLA) stock data through the lens of advanced time series analysis techniques, aiming to forecast the stock's future performance over a 6 to 12-month horizon. A stock is a share of ownership in a corporation, and an investment in TSLA stock represents a stake in Tesla's prospective achievements. The potential for capital gains and dividends comes with the inherent risk of price depreciation, reflecting the volatile nature of the stock market.
 
-## Displaying data that's going to be used for analysis
+The core of this analysis is the application of various time series forecasting methods to TSLA's historical stock data. We begin with elementary models such as the Naïve method, which assumes the most recent stock price as the best predictor for future prices, and the Historical Average method, which forecasts future values based on the historical average of the stock. To gauge the precision of these methods, we employ accuracy metrics including Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Mean Absolute Percentage Error (MAPE), which collectively offer a quantifiable measure of each method's forecasting reliability for TSLA stock.
 
-![image](https://user-images.githubusercontent.com/22257555/223150825-3edc42d1-e734-494b-9919-3c375318e100.png)
+Moving beyond foundational approaches, the study incorporates more sophisticated models such as ARIMA and SARIMA, which are designed to capture complex patterns in time series data. The ARIMA model addresses non-seasonal time series data, while SARIMA extends this approach to account for seasonal variations, which can be particularly pertinent for TSLA stock given its historical performance patterns.
 
-![image](https://user-images.githubusercontent.com/22257555/223151109-c1cd2215-6630-4cbb-9460-3eb0faa71321.png)
+The report meticulously evaluates the results of these models, providing an in-depth narrative on the nature of TSLA’s stock behavior and the effectiveness of different time series methodologies. Our aim is to provide a nuanced understanding of TSLA’s price trajectory, empowering investors with the knowledge to make well-informed decisions in a market that is as promising as it is unpredictable.
 
-## Analysis 
 
-### Death percentage if one's contract covid in United Kingdom.
+## Time Series Visualization  
+### The time series visualization of Tesla, Inc. (TSLA) stock from January 2019 to 2023 comprises 60 observations, representing monthly closing prices. This visual analysis offers a comprehensive view of the stock’s performance.
+Key Observations and Statistics:
+•	The dataset consists of 60 observations, capturing TSLA’s stock price movements over approximately five years.
+•	The average (mean) closing price of the stock is approximately $174.81.
+•	A standard deviation of approximately $110.21 suggests significant variability in TSLA’s stock prices.
+•	The lowest recorded stock price is around $12.34.
+•	The highest price attained is approximately $381.59.
+•	The median price, representing the middle value, is approximately $206.59.
 
-![image](https://user-images.githubusercontent.com/22257555/223154172-10f0a923-5f7e-4361-b57c-0f202b5897fb.png)
 
-![image](https://user-images.githubusercontent.com/22257555/223154284-51b14a07-8d25-4b0d-b83a-633217283c26.png)
+<img width="452" alt="image" src="https://github.com/kireetigudla/kireeti01/assets/122108823/751c3ea2-3317-4cc1-a667-dcadd0006e2e">
+<img width="452" alt="image" src="https://github.com/kireetigudla/kireeti01/assets/122108823/0f1d7911-1b1c-4ff8-aa47-293405ceb1bc">
 
-### Percentage of population infected with COVID in United Kingdom.
 
-![image](https://user-images.githubusercontent.com/22257555/223155234-6392c4f4-bc37-4efb-9ede-578b6e7a6b6f.png)
-
-![image](https://user-images.githubusercontent.com/22257555/223154975-04a25547-c53f-43a9-8e9b-8588390838ca.png)
-
-### Countries with Highest Infected Rate
-
-![image](https://user-images.githubusercontent.com/22257555/223155746-e3579caa-95b8-46a7-8b48-9f3a2038ded6.png)
-
-![image](https://user-images.githubusercontent.com/22257555/223155902-889af6d3-219b-4d70-ba4c-90ed522f192b.png)
-
-### Countries with Highest Death Count
-
-![image](https://user-images.githubusercontent.com/22257555/223156289-c26004f1-61c8-4a0c-a69b-36ed7a22aedd.png)
-
-![image](https://user-images.githubusercontent.com/22257555/223156409-5d2027c8-6fc1-4733-a6e6-a8eacafb8b6c.png)
-
-### Continents with Highest Death Count
-
-![image](https://user-images.githubusercontent.com/22257555/223156707-a9819dec-020d-455d-892c-fceeab8eb40f.png)
-
-![image](https://user-images.githubusercontent.com/22257555/223156776-2223852f-f2af-42c2-a30f-d516b4f9681f.png)
-
-### Percentage of population that has recieved atleast one COVID vaccination using CTE
-
-![image](https://user-images.githubusercontent.com/22257555/223157717-9472a211-5e29-4562-acfc-4a2908c0f022.png)
-
-![image](https://user-images.githubusercontent.com/22257555/223157790-e750f705-4223-4caa-9dd8-f4c613e02717.png)
